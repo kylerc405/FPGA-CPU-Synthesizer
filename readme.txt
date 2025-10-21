@@ -1,7 +1,8 @@
-Custom MIPS CPU implemented on Xilinx Nexys A7 FPGA Board using SystemVerilog in Vivado. <br>
-Includes memory-mapped VGA, sound, keyboard, and accelerometer I/O. Also includes hardware PWM extensions for polyphonic audio synthesis.
+Custom MIPS CPU implemented on Xilinx Nexys A7 FPGA Board using SystemVerilog in Vivado.  
+Includes memory-mapped VGA, sound, keyboard, and accelerometer I/O. Also includes hardware PWM extensions for polyphonic audio synthesis.  
 
-<br>
-<br>
+
+
 Real-time, interactive 1-octave virtual piano synthesizer implemented in MIPS assembly with VGA display user interface, PS/2 keyboard input, sound output, and accelerometer-controlled volume modulation and waveform switching (saw, square, and triangle waves).  
+
 
