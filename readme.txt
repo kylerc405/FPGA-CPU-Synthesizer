@@ -1,5 +1,1 @@
-1. No revisions were made after the in-class presentation
-
-2. Modifications were made to top.sv, memIO.sv, memory_mapper.sv, and sound.sv files. This was basically wiring up 12 more sound registers located in the addresses above the LED, and connecting them to 12 more sound generators and passing the audio through a sound mixer MUX that cycled quickly between them all. In each sound generator is a phase counter, a PWM counter, a waveform selector based on accelX, and a volume scaler based on accelY that scales either the saw or square wave (triangle wave never ended up being completed and functioning). 
-
-
+Custom MIPS CPU implemented on Xilinx Nexys A7 FPGA Board using SystemVerilog in Vivado. Includes memory-mapped VGA, sound, keyboard, and accelerometer I/O. Also includes hardware PWM extensions for polyphonic audio synthesis. Real-time, interactive 1-octave virtual piano synthesizer implemented in MIPS assembly with VGA display user interface, PS/2 keyboard input, sound output, and accelerometer-controlled volume modulation and waveform switching (saw, square, and triangle waves).  
